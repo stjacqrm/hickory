@@ -34,7 +34,7 @@ On release, automated continuous integration tests run the pipeline on a full-si
 1. Read QC ([FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
 2. Read trimming ([Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic))
 3. Potential PhiX removal([BBTools](https://sourceforge.net/projects/bbmap/))
-4. Genome Assembly ([Shovill](linkhttps://github.com/tseemann/shovill))
+4. Genome Assembly ([Shovill](https://github.com/tseemann/shovill))
 5. Reference Determination ([Centroid](https://github.com/stjacqrm/centroid))
 6. Present QC for raw reads and software versions ([MultiQC](http://multiqc.info/))
 
