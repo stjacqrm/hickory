@@ -31,12 +31,12 @@ On release, automated continuous integration tests run the pipeline on a full-si
 
 <!-- TODO nf-core: Fill in short bullet-pointed list of the default steps in the pipeline -->
 
-1. Read QC ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
-2. Read trimming ([Trimmomatic](link))
-3. Potential PhiX removal
-4. Genome Assembly ([Shovill](link))
+1. Read QC ([FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
+2. Read trimming ([Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic))
+3. Potential PhiX removal([BBTools](https://sourceforge.net/projects/bbmap/))
+4. Genome Assembly ([Shovill](linkhttps://github.com/tseemann/shovill))
 5. Reference Determination ([Centroid](https://github.com/stjacqrm/centroid))
-6. Present QC for raw reads and software versions ([`MultiQC`](http://multiqc.info/))
+6. Present QC for raw reads and software versions ([MultiQC](http://multiqc.info/))
 
 ## Quick Start
 
@@ -47,7 +47,7 @@ On release, automated continuous integration tests run the pipeline on a full-si
 3. Download the pipeline and test it on a minimal dataset with a single command:
 
    ```console
-   nextflow run nf-core/hickory -profile test,YOURPROFILE --outdir <OUTDIR>
+   nextflow run hickory -profile test,YOURPROFILE --outdir <OUTDIR>
    ```
 
    Note that some form of configuration will be needed so that Nextflow knows how to fetch the required software. This is usually done in the form of a config profile (`YOURPROFILE` in the example command above). You can chain multiple config profiles in a comma-separated string.
@@ -62,16 +62,16 @@ On release, automated continuous integration tests run the pipeline on a full-si
    <!-- TODO nf-core: Update the example "typical command" below used to run the pipeline -->
 
    ```console
-   nextflow run nf-core/hickory --input samplesheet.csv --outdir <OUTDIR> -profile <docker/singularity/podman/shifter/charliecloud/conda/institute>
+   nextflow run hickory --input samplesheet.csv --outdir <OUTDIR> -profile <docker/singularity/podman/shifter/charliecloud/conda/institute>
    ```
 
 ## Documentation
 
-The nf-core/hickory pipeline comes with documentation about the pipeline [usage](https://nf-co.re/hickory/usage), [parameters](https://nf-co.re/hickory/parameters) and [output](https://nf-co.re/hickory/output).
+The hickory pipeline comes with documentation about the pipeline [usage](https://nf-co.re/hickory/usage), [parameters](https://nf-co.re/hickory/parameters) and [output](https://nf-co.re/hickory/output).
 
 ## Credits
 
-nf-core/hickory was originally written by Rachael St. Jacques.
+Hickory was originally written by Rachael St. Jacques.
 
 We thank the following people for their extensive assistance in the development of this pipeline:
 
