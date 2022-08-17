@@ -11,6 +11,18 @@
 ## Pipeline tools
 
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+  > Andrews S. (2010). FastQC: a quality control tool for high throughput sequence data. Available online at: http://www.bioinformatics.babraham.ac.uk/projects/fastqc
+
+- [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
+  > Anthony M. Bolger, Marc Lohse, Bjoern Usadel, Trimmomatic: a flexible trimmer for Illumina sequence data, Bioinformatics, Volume 30, Issue 15, 1 August 2014, Pages 2114–2120, https://doi.org/10.1093/bioinformatics/btu170
+
+- [BBTools](https://sourceforge.net/projects/bbmap/)
+  > Bushnell B., BBMap: BBMap short read aligner, and other bioinformatic tools. Available online at: https://sourceforge.net/projects/bbmap/ 
+
+- [Shovill](https://github.com/tseemann/shovill)
+  > Seemann T., Shovill:Assemble bacterial isolate genomes from Illumina paired-end reads. Available online at: https://github.com/tseemann/shovill
+
+- [Centroid](https://github.com/stjacqrm/centroid)
 
 - [MultiQC](https://pubmed.ncbi.nlm.nih.gov/27312411/)
   > Ewels P, Magnusson M, Lundin S, Käller M. MultiQC: summarize analysis results for multiple tools and samples in a single report. Bioinformatics. 2016 Oct 1;32(19):3047-8. doi: 10.1093/bioinformatics/btw354. Epub 2016 Jun 16. PubMed PMID: 27312411; PubMed Central PMCID: PMC5039924.
