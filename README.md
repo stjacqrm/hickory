@@ -32,7 +32,6 @@ The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool
 
 ## Citations
 
-If you use  hickory for your analysis, please cite it using the following:
 
 
 An extensive list of references for the tools used by the pipeline can be found in the [`CITATIONS.md`](CITATIONS.md) file.
