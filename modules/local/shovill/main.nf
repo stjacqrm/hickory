@@ -1,5 +1,6 @@
 process SHOVILL {
     tag "$name"
+    label 'process_high'
 
     input:
     tuple val(name), path(cleaned_reads)

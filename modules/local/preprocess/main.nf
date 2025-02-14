@@ -1,5 +1,6 @@
 process PREPROCESS {
   tag {"Preprocessing Reads"}
+  label 'process_low'
 
   input:
   tuple val(name), path(reads)

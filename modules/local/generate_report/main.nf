@@ -1,6 +1,7 @@
 process GENERATE_REPORT{
   tag {"Generating Report"}
-
+  label 'process_medium'
+  
   input:
   path samtools_cvg_tsvs
 

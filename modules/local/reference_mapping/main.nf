@@ -1,5 +1,6 @@
 process REFERENCE_MAPPING{
   tag "$name"
+  label 'process_medium'
       
   input:
   tuple val(name),path(sam_percent)

@@ -1,5 +1,6 @@
 process SAM_FILES {
   tag "$name"
+  label 'process_medium'
 
   input:
   tuple val(name), path(reads_files_minimap), path(ref_minimap)

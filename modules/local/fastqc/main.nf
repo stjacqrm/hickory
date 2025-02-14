@@ -1,6 +1,6 @@
 process FASTQC {
   tag "$name"
-
+  label 'process_medium'
 
   input:
   tuple val(name), path(reads)

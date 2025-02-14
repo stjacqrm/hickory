@@ -1,6 +1,6 @@
 process CLEANREADS {
   tag "$name"
-
+  label 'process_high'
 
   input:
   tuple val(name), path(trimmed_reads) 

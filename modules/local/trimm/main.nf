@@ -1,5 +1,6 @@
 process TRIMM {
   tag "$name"
+  label 'process_high'
 
   input:
   tuple val(name), path(read_files_trimming)

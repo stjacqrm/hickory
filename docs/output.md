@@ -1,4 +1,4 @@
-# nf-core/hickory: Output
+# hickory: Output
 
 ## Introduction
 

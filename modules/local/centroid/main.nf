@@ -1,6 +1,7 @@
 process CENTROID {
   tag {"Determining Reference Genome"}
-
+  label 'process_high'
+  
   input:
   path(contigs)
 
